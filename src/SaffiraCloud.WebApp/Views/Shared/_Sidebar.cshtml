@@ -1,0 +1,17 @@
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand"><a href="#">SaffiraCloud</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="About">Sobre</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contato</a></li>
+    </ul>
+</div>
+
+@section scripts {
+    <script type="text/javascript">
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+} 
