@@ -17,6 +17,7 @@ var jsPopper = ["./node_modules/popper.js/dist/umd/popper.js"];
 var imgFiles = ["./src/images/*"];
 var iconFiles = ["./src/*.ico"];
 
+
 // Destino
 var cssDest = "./wwwroot/css";
 var jsDest = "./wwwroot/js";

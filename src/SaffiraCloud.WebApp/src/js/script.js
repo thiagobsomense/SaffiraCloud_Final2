@@ -1,3 +1,3 @@
 function toggleMenu() {
-    $("#wrapper").toggleClass("toggled");
+    $("#sidebarCollapse, #sidebar, #content").toggleClass("active");
 }

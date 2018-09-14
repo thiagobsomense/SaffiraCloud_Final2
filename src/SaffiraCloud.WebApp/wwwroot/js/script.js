@@ -1,4 +1,4 @@
 function toggleMenu() {
-    $("#wrapper").toggleClass("toggled");
+    $("#sidebarCollapse, #sidebar, #content").toggleClass("active");
 }
 //# sourceMappingURL=script.js.map

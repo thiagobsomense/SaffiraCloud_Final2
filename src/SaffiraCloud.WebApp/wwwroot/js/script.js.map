@@ -1,1 +1,1 @@
-{"version":3,"sources":["script.js"],"names":[],"mappings":"AAAA;AACA;AACA","file":"script.js","sourcesContent":["function toggleMenu() {\r\n    $(\"#wrapper\").toggleClass(\"toggled\");\r\n}"]}
+{"version":3,"sources":["script.js"],"names":[],"mappings":"AAAA;AACA;AACA","file":"script.js","sourcesContent":["function toggleMenu() {\n    $(\"#sidebarCollapse, #sidebar, #content\").toggleClass(\"active\");\n}"]}
