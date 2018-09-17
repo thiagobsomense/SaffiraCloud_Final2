@@ -1,17 +1,24 @@
-<nav id="sidebar">
+<nav id="sidebar" data-color="blue">
     <div class="sidebar-header">
         <a href="#">SaffiraCloud</a>
     </div>
 
     <ul class="list-unstyled components">
         <li>
-            <a href="#userSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Cadastro</a>
+            <a href="#userSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle simple-text-user">
+                <img src="https://demos.creative-tim.com/now-ui-dashboard-pro/assets/img/james.jpg" class="rounded-circle photo"
+                    alt="">
+                Thiago Somense
+            </a>
             <ul class="collapse list-unstyled" id="userSubmenu">
                 <li><a asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a></li>
                 <li><a asp-area="" asp-controller="Home" asp-action="About">Sobre</a></li>
                 <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contato</a></li>
             </ul>
         </li>
+    </ul>
+
+    <ul class="list-unstyled components">
         <li>
             <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Cadastro</a>
             <ul class="collapse list-unstyled" id="homeSubmenu">
